@@ -12,6 +12,7 @@ current latest version: 19.3.4
 - initial login credential. 
   - username: `oracle`
   - password: `Welcome1`. The password is asked to be changed upon first login. 
+- All repository files under `/etc/yum.repos.d` is disabled (preventing accidental yum update)
 ## Compatibility
 - Hardware
   - 4 CPUs, 16GB memory, 500GB storage
