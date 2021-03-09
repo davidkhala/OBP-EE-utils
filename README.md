@@ -14,6 +14,9 @@ current latest version: 19.3.4
   - password: `Welcome1`. The password is asked to be changed upon first login. 
 - All repository files under `/etc/yum.repos.d` is disabled (preventing accidental yum update)
 - Based on Oracle Linux release 7.9
+- Control plane `https://<domain>:7443/console/index.html`
+  - username: `obpadmin`
+  - password: `welcome1`
 ## Compatibility
 - Hardware
   - 4 CPUs, 16GB memory, 500GB storage
@@ -24,7 +27,7 @@ current latest version: 19.3.4
   - VMWare ESXi v6.7+
 - If OS is Microsoft Windows, please disable Hyper-V
 
-## Best practice for productin usage
+## Best practice for production usage
 - Authentication server
   - OpenLDAP 2.4.44+
   - Oracle Internet/Unified Directory 12.2.1+
