@@ -24,7 +24,7 @@ current latest version: 19.3.4
   - VMWare ESXi v6.7+
 - If OS is Microsoft Windows, please disable Hyper-V
 
-## Best practis for productin usage
+## Best practice for productin usage
 - Authentication server
   - OpenLDAP 2.4.44+
   - Oracle Internet/Unified Directory 12.2.1+
@@ -44,3 +44,4 @@ current latest version: 19.3.4
 - VM and host datetime must be sync
 ## Reference
 - [home page](https://www.oracle.com/blockchain/blockchain-platform-enterprise-edition)
+- [Documents](https://docs.oracle.com/en/database/other-databases/blockchain-enterprise/19.3/administer/service-administrators-roadmap-oracle-blockchain-platform.html)
