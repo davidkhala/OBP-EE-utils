@@ -28,7 +28,7 @@ current latest version: 19.3.4
 1. [`Configuration` tab] Button `Add User`, such as `<user>`
 1. Logout from `obpadmin`
 1. Login as the new created user `<user>`
-1. ![](CreateInstance.png)
+1. Create Instance
 
 
 ## Reference
