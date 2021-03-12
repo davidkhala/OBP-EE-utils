@@ -8,43 +8,29 @@ it includes toolset for dev/prototyping purpose:
 - a LDAP server for authentication
 
 current latest version: 19.3.4
-## Basic informaion
+## Basic information
 - initial login credential. 
   - username: `oracle`
   - password: `Welcome1`. The password is asked to be changed upon first login. 
-- All repository files under `/etc/yum.repos.d` is disabled (preventing accidental yum update)
-- Based on Oracle Linux release 7.9
 - Control plane `https://<domain>:7443/console/index.html`
   - username: `obpadmin`
   - password: `welcome1`
-## Compatibility
-- Hardware
-  - 4 CPUs, 16GB memory, 500GB storage
-- Virtual Machine Hosting Software
-  - Oracle VirtualBox v5.x, v6.x
-  - Oracle Linux Virtualization Manager
-  - VMWare Workstation
-  - VMWare ESXi v6.7+
-- If OS is Microsoft Windows, please disable Hyper-V
 
-## Best practice for production usage
-- Authentication server
-  - OpenLDAP 2.4.44+
-  - Oracle Internet/Unified Directory 12.2.1+
-  - Microsoft Active Directory with a single domain (2016 server or later)
-- An external TCP load balancer
-## Exposed ports
-- `22`        : ssh
-- `389`,`636` : local LDAP server
-- `443`       : Docker Registry?
-- `2375`      : Docker Daemon
-- `2377`,`7946`: Docker Swarm
-- `7070`      : Control plane UI (http) 
-- `7443`      : Control plane UI (https) 
-- `8080`      : Component manager
-- `10000-10200`: load balancer for containers (peer, orderer)
-## Notes
-- VM and host datetime must be sync
+## Setup
+1. Login to Control plane as `obpadmin` with initial credential
+1. On the first time login to console
+  **Configure LDAP NOW**
+
+  > No Active LDAP Configuration found ! Navigate to `Configuration` tab and setup an active LDAP Configuration.
+  You will not be able to create or manage an instance without an active LDAP configuration.
+1. [`Configuration` tab] Set Password
+1. [`Configuration` tab] Button `Set Active`
+1. [`Configuration` tab] Button `Add User`, such as `<user>`
+1. Logout from `obpadmin`
+1. Login as the new created user `<user>`
+1. ![](CreateInstance.png)
+
+
 ## Reference
 - [home page](https://www.oracle.com/blockchain/blockchain-platform-enterprise-edition)
 - [Documents](https://docs.oracle.com/en/database/other-databases/blockchain-enterprise/19.3/administer/service-administrators-roadmap-oracle-blockchain-platform.html)
