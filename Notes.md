@@ -5,6 +5,8 @@
 - Cannot be run on more than 1 CPU core 
 - Pop up title `Create Instance` -> Section `Cluster Configuration` -> `Platform Host` cannot be `localhost`
     - it have to use FQDNs
+- Do NOT use 10.0.0.0/24 as the CIDR for the subnet because it is already used by docker swarm overlay network bcsnetwork in OBPEE VM. Suggest using 192.168.0.0/16.
+
 ## Compatibility
 - Hardware
   - 4 CPUs, 16GB memory, 500GB storage
