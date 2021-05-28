@@ -31,6 +31,5 @@ current latest version: 19.3.4
 1. Create Instance
 
 
-## Reference
-- [home page](https://www.oracle.com/blockchain/blockchain-platform-enterprise-edition)
-- [Documents](https://docs.oracle.com/en/database/other-databases/blockchain-enterprise/19.3/administer/service-administrators-roadmap-oracle-blockchain-platform.html)
+## [WIKI](https://github.com/davidkhala/OBP-EE-utils/wiki)
+
