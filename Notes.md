@@ -1,12 +1,17 @@
 # Notes
-
-- VM and host datetime must be sync
 - Based on Oracle Linux release 7.9
 - All repository files under `/etc/yum.repos.d` is disabled (preventing accidental yum update)
-- Cannot be run on more than 1 CPU core 
 - Pop up title `Create Instance` -> Section `Cluster Configuration` -> `Platform Host` cannot be `localhost`
     - it have to use FQDNs, so better to provision it on cloud
-- Do NOT use `10.0.0.0/24` as the CIDR for the subnet because it is already used by docker swarm overlay network `bcsnetwork` in OBPEE VM. Suggest using `192.168.0.0/16`.
+
+## on-prem hypervisor
+- VM and host datetime must be sync
+- Cannot be run on more than 1 CPU core 
+## OCI Network
+- Do NOT use `10.0.0.0/24` as the CIDR for the subnet because it is already used by docker swarm overlay network `bcsnetwork` in OBPEE VM. Suggest using `192.168.0.0/16` or `10.0.1.0/24`.
+- For dev/test environment, configure the Security List of the Subnet to:
+    - Allow all protocols from all sources (0.0.0.0/0) in Ingress Rules &
+    - Allow all protocols to all destinations (0.0.0.0/0) in Egress Rules
 
 ## Compatibility
 - Hardware
