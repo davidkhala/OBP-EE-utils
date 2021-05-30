@@ -19,10 +19,15 @@ current latest version: 19.3.4
 ## Setup
 1. Login to Control plane as `obpadmin` with initial credential
 1. On the first time login to console
-  **Configure LDAP NOW**
+    > **Configure LDAP NOW**
 
-  > No Active LDAP Configuration found ! Navigate to `Configuration` tab and setup an active LDAP Configuration.
-  You will not be able to create or manage an instance without an active LDAP configuration.
+    > No Active LDAP Configuration found ! Navigate to `Configuration` tab and setup an active LDAP Configuration.You will not be able to create or manage an instance without an active LDAP configuration.
+   
+   Then you will be redirect to:
+    > **Set Password**  
+    > Please set new password for the default LDAP server.
+
+
 1. [`Configuration` tab] Set Password
 1. [`Configuration` tab] Button `Set Active`
 1. [`Configuration` tab] Button `Add User`, such as `<user>`
