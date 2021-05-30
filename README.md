@@ -27,8 +27,6 @@ current latest version: 19.3.4
     > **Set Password**  
     > Please set new password for the default LDAP server.
 
-
-1. [`Configuration` tab] Set Password
 1. [`Configuration` tab] Button `Set Active`
 1. [`Configuration` tab] Button `Add User`, such as `<user>`
 1. Logout from `obpadmin`
