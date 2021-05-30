@@ -1,5 +1,5 @@
 # Notes
-- Based on Oracle Linux release 7.9
+- Based on Oracle Linux release 7.7
 - All repository files under `/etc/yum.repos.d` is disabled (preventing accidental yum update)
 - Pop up title `Create Instance` -> Section `Cluster Configuration` -> `Platform Host` cannot be `localhost`
     - it have to use FQDNs, so better to provision it on cloud
