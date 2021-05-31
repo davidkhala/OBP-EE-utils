@@ -34,7 +34,8 @@ it includes toolset for dev/prototyping purpose:
 1. Create Instance
      - This should not take time longer than **a few minutes**, otherwise it is a issue
      - Creating timeout: 200 mins 
-
+1. [`Instances` tab] -> [`Instance Details`] Button `Service Console` will direct to `<FQDN>:10000`
+     - If you laptop cannot resolve this domain, place with your domain/ip instead.
 
 ## [WIKI](https://github.com/davidkhala/OBP-EE-utils/wiki)
 
