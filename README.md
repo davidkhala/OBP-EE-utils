@@ -7,7 +7,7 @@ it includes toolset for dev/prototyping purpose:
 - a lightweight load balancer for 
 - a LDAP server for authentication
 
-current latest version: 19.3.4
+
 ## Basic information
 - initial login credential. 
   - username: `oracle`
