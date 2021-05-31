@@ -32,6 +32,7 @@ current latest version: 19.3.4
 1. Logout from `obpadmin`
 1. Login as the new created user `<user>`
 1. Create Instance
+     - This should not take time longer than **a few minutes**, otherwise it is a issue
 
 
 ## [WIKI](https://github.com/davidkhala/OBP-EE-utils/wiki)
