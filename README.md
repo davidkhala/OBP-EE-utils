@@ -33,6 +33,7 @@ it includes toolset for dev/prototyping purpose:
 1. Login as the new created user `<user>`
 1. Create Instance
      - This should not take time longer than **a few minutes**, otherwise it is a issue
+     - Creating timeout: 200 mins 
 
 
 ## [WIKI](https://github.com/davidkhala/OBP-EE-utils/wiki)
