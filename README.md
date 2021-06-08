@@ -1,14 +1,8 @@
 # OBP-EE-utils
 Oracle Blockchain Platform Enterprise Edition utils
 
-## About
-OBP EE is packaged as a `.ova` file
-it includes toolset for dev/prototyping purpose:
-- a lightweight load balancer for 
-- a LDAP server for authentication
-
-
 ## Basic information
+- OBP EE is packaged as a `.ova` file
 - initial login credential. 
   - username: `oracle`
   - password: `Welcome1`. The password is asked to be changed upon first login. 
