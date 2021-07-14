@@ -6,7 +6,7 @@ Oracle Blockchain Platform Enterprise Edition utils
 - initial login credential. 
   - username: `oracle`
   - password: `Welcome1`. The password is asked to be changed upon first login. 
-- Control plane `https://<domain>:7443/console/index.html`
+- Control plane ("Platfrom Manager") `https://<domain>:7443/console/index.html`
   - username: `obpadmin`
   - password: `welcome1`
 
